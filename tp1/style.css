@@ -1,0 +1,17 @@
+#font{
+    background-image: linear-gradient(to bottom right, black , darkslategray);
+}
+.titre{
+    margin-top: 150px;
+    color: white;
+}
+#slide{
+    margin-top:150px;
+}
+.info{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.return{
+    color: black;
+}
