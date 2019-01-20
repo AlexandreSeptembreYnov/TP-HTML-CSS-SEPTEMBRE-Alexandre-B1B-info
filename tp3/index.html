@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="blog.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>$(function () {
+        $('[data-toggle="popover"]').popover()
+    })</script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/mdb.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">SEPTEMBRE Alexandre  </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="comp/index.html">Comp</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Les TP
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../tp1/index.html">Site Vitrine</a>
+                    <a class="dropdown-item" href="../tp2/index.html">TP 2</a>
+                    <a class="dropdown-item" href="../tp3/index.html">TP 3</a>
+                    <a class="dropdown-item" href="../tp4/index.html">TP 4</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div style="position:relative; height:400px">
+    <div style="position:absolute;z-index:1">
+        <img src="r_atr-header-main.jpg">
+    </div>
+    <div style="position:absolute;top:200px; width:1500px; height:500px; z-index:2;font-size:400%;color: black;">
+        <center><b>Mon Blog</b></center>
+    </div>
+</div>
+<div class="container-fluid"style="position: absolute;top: 600px">
+<div class="row mb-2">
+    <div class="col-md-6">
+        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+                <strong class="d-inline-block mb-2 text-primary">World</strong>
+                <h3 class="mb-0">
+                    <a class="text-dark" href="#">arcticle 1</a>
+                </h3>
+                <div class="mb-1 text-muted">Jan 20</div>
+                <p class="card-text mb-auto">Terrarum populique auctoritate ut quotquot per verecundum cum omnes patrum suscipitur tribus ut temporis olim certamina per cum nulla canities.</p>
+                <a href="#">Continue reading</a>
+            </div>
+            <svg class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect fill="#55595c" width="100%" height="100%"></rect><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text></svg>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+                <strong class="d-inline-block mb-2 text-success">Design</strong>
+                <h3 class="mb-0">
+                    <a class="text-dark" href="#">Article 2</a>
+                </h3>
+                <div class="mb-1 text-muted">Nov 11</div>
+                <p class="card-text mb-auto">Lucris inutiles talia eruditos enim vitant quod infaustos inserunt accepta eo haec et nomenclatores mercede inserunt haec haec ut accedente.
+                </p>
+                <a href="#">Continue reading</a>
+            </div>
+            <svg class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect fill="#55595c" width="100%" height="100%"></rect><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text></svg>
+        </div>
+    </div>
+</div>
+    </div>
+<div class="container-fluid" style="position:absolute;top:900px;">
+    <div class="row">
+        <div class="col-md-10">
+            <div class="comments-container">
+                <h1>Commentaire</h1>
+
+                <ul id="comments-list" class="comments-list">
+                    <li>
+                        <div class="comment-main-level">
+                            <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_1_zps8e1c80cd.jpg" alt=""></div>
+                            <div class="comment-box">
+                                <div class="comment-head">
+                                    <h6 class="comment-name by-author"><a href="http://creaticode.com/blog">Agustin Ortiz</a></h6>
+                                    <span>hace 20 minutos</span>
+                                    <i class="fa fa-reply"></i>
+                                    <i class="fa fa-heart"></i>
+                                </div>
+                                <div class="comment-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo?
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="comments-list reply-list">
+                            <li>
+                                <!-- Avatar -->
+                                <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_2_zps7de12f8b.jpg" alt=""></div>
+                                <div class="comment-box">
+                                    <div class="comment-head">
+                                        <h6 class="comment-name"><a href="http://creaticode.com/blog">Lorena Rojero</a></h6>
+                                        <span>hace 10 minutos</span>
+                                        <i class="fa fa-reply"></i>
+                                        <i class="fa fa-heart"></i>
+                                    </div>
+                                    <div class="comment-content">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo?
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_1_zps8e1c80cd.jpg" alt=""></div>
+                                <div class="comment-box">
+                                    <div class="comment-head">
+                                        <h6 class="comment-name by-author"><a href="http://creaticode.com/blog">Agustin Ortiz</a></h6>
+                                        <span>hace 10 minutos</span>
+                                        <i class="fa fa-reply"></i>
+                                        <i class="fa fa-heart"></i>
+                                    </div>
+                                    <div class="comment-content">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo?
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <div class="comment-main-level">
+                            <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_2_zps7de12f8b.jpg" alt=""></div>
+                            <div class="comment-box">
+                                <div class="comment-head">
+                                    <h6 class="comment-name"><a href="http://creaticode.com/blog">Lorena Rojero</a></h6>
+                                    <span>hace 10 minutos</span>
+                                    <i class="fa fa-reply"></i>
+                                    <i class="fa fa-heart"></i>
+                                </div>
+                                <div class="comment-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo?
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="comment-section">
+                <h1 class="comment-reply-title">Write your comment!</h1>
+                <form id="commentform" class="comment-form">
+                    <div class="comment-form-name">
+                        <input id="name" placeholder="Name *" name="name" type="text" value="" pattern="^[^0-9]+$" size="30" maxlength="245" required>
+                        <label for="name" data-help="¿Are you 11 from Stranger Things?">Name</label>
+                    </div>
+                    <div class="comment-form-surname">
+                        <input id="surname" placeholder="Surname *" name="surname" type="text" value="" size="30" maxlength="245" required>
+                        <label for="surname" data-help="A girl has no name- Arya Stark">Surname</label>
+                    </div>
+                    <div class="comment-form-email">
+                        <input id="email" placeholder="Email *" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required>
+                        <label for="email" data-help="Format email@email.com">Email</label>
+                    </div>
+                    <div class="comment-form-url">
+                        <input id="url" placeholder="Website" name="url" type="url" value="" size="30" maxlength="200">
+                        <label for="url" data-help="Should start with http:// o https://">Website</label>
+                    </div>
+                    <div class="comment-form-comment">
+                        <textarea textarea="" placeholder="Comment *" id="comment" name="comment" cols="45" rows="8" maxlength="65525" required></textarea>
+                        <label for="comment" data-help="Escribe algo! Lo primero que se te ocurra">Comment</label>
+                    </div>
+                    <div class="form-submit">
+                        <input name="submit" type="submit" id="submit" class="submit" value="Post Comment">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+            <div class="sidebar-sticky">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">
+                            Page d'accueil <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Article 1
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Article 2
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Article 3
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Article 4
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Article 5
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Article 6
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Article 7
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Article 8
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="col">
